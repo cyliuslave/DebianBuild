@@ -2,7 +2,7 @@
 #apt-get install sudo
 ##vim /etc/sudoers
 #exit
-sudo apt-get install vim build-essential libtool  autoconf libglib2.0-dev zlib1g-dev git install libsdl-dev
+sudo apt-get install vim build-essential libtool  autoconf libglib2.0-dev zlib1g-dev git libsdl-dev
 git clone https://github.com/json-c/json-c.git
 cd json-c  
 sh autogen.sh
